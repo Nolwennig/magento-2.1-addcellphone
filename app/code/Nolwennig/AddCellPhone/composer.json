@@ -1,0 +1,22 @@
+{
+    "name": "nolwennig/module-addcellphone",
+    "description": "Add Cell Phone in Magento 2.1.* Customer Entity",
+    "type": "magento2-module",
+    "license": "?",
+    "authors": [
+        {
+            "email": "nolwennig@gmail.com",
+            "name": "Nolwennig"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nolwennig\\AddCellPhone\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
